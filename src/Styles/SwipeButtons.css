@@ -1,0 +1,22 @@
+.swipeButtons {
+    position: fixed;
+    bottom: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.swipeButtons .MuiIconButton-root {
+    background-color: #fff;
+    box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important;
+}
+
+/* for some reason I couldn't get these to change color */
+.swipeButtons__repeat { 
+    color: yellow;
+    padding: 3vw; 
+}
+.swipeButtons__left { color:red; }
+.swipeButtons__star { color:blue; }
+.swipeButtons__right { color:aqua; }
+.swipeButtons__lightning { color:purple; }
